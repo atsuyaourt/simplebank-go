@@ -3,8 +3,8 @@ package worker
 import (
 	"context"
 
+	db "github.com/emiliogozo/simplebank-go/db/sqlc"
 	"github.com/hibiken/asynq"
-	db "github.com/techschool/simplebank/db/sqlc"
 )
 
 const (

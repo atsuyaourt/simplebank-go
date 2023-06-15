@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/emiliogozo/simplebank-go/util"
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/stretchr/testify/require"
-	"github.com/techschool/simplebank/util"
 )
 
 func TestJWTMaker(t *testing.T) {
